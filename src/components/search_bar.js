@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class SearchBar extends Component {
   constructor (props) {
     super(props)
@@ -16,7 +15,6 @@ class SearchBar extends Component {
           onChange={ event => this.onInputChange(event.target.value)} />
       </div>
     );
-
   }
 
   onInputChange(term) {
@@ -25,6 +23,5 @@ class SearchBar extends Component {
   }
 
 }
-
 
 export default SearchBar;

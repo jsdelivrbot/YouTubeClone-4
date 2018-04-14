@@ -9,7 +9,6 @@ const VideoListItem = ( {video, onVideoSelect} ) => {
         <div className="media-left">
           <img className="media-object" src={imageUrl}/>
         </div>
-
         <div className="media-body">
           <div className="media-heading">{title}</div>
         </div>
@@ -17,6 +16,5 @@ const VideoListItem = ( {video, onVideoSelect} ) => {
     </li>
   );
 }
-
 
 export default VideoListItem;
